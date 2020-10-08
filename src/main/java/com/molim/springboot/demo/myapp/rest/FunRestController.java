@@ -13,4 +13,9 @@ public class FunRestController {
 		return "Hello World! Time on Server is: " + LocalDateTime.now();
 	}
 	
+	@GetMapping("/test-dev-tools")
+	public String testDevTools() {
+		return "Test dev tools. Time on Server is: " + LocalDateTime.now();
+	}
+	
 }
